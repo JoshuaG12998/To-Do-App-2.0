@@ -5,7 +5,7 @@
 
 body{
 	color: #999;
-	background-image: url(../images/train.jpg);
+	background-image: url(../images/city.jpg);
   	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -15,33 +15,107 @@ body{
 	min-height: 100%
 	-webkit-text-size-adjust: none;
   	overflow-x: hidden;
+  	overflow-y: hidden;
 }
 
-.wrap{}
+.wrap{
+	border: 2px rgba(123, 119, 117, .7) solid;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 400px;
+	min-height: 400px;
+	overflow-y: auto;
+	border-top-left-radius: 15px;
+}
 
 .task-list{
-	width: 350px;
-	height: 350px;
-	min-height: 300px;
+	
+	border-top-left-radius: 15px;
+	min-height: 400px;
 	background: #fff;
 	opacity: .8;
-/*	box-shadow: 2px 2px 0px #ddd;
-*/	margin-top: 150px;
-	margin-right: 474.5px;
-	margin-left: 474.5px;
-	padding: 25px 6%;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+  width: 5px;  
+
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(123, 119, 117, .5);
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(0, 0, 0, .8);
+  border-radius: 15px;
 }
 
 .add-new-task{
-	padding-left: 474.5px;
 
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .9;
+	color: rgb(123, 119, 117);
+	width: 400px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.add-new-task-words{
+	border: 2px rgba(123, 119, 117, .7) solid;
+	padding-left: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .9;
+	color: rgb(123, 119, 117);
+	width: 400px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 .words{
+	text-align: left;
 	opacity: .9;
-	color: rgb(54, 55, 47);
+	color: rgb(94, 94, 88);
 }
 
 .delete-button{
-	margin-left: 100%;
+	margin-left: 20px;
+}
+
+footer{
+	text-align: right;
+	vertical-align: baseline;
+	position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 376px) {
+	
+}
+
+
+@media screen and (max-width: 460px) {
+	
+}
+
+header{
+	text-align: center;
+	background: #fff;
+	opacity: .8;
+}
+
+.button{
+	width: 80px;
+	background: #fff;
+	opacity: .8;
+	border: none;
+
 }

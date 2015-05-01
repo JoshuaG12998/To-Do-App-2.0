@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	color: #999;
+	background-image: url(../images/fox.jpg);
+  	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'PT Sans';
+	background-attachment: fixed;
+	min-height: 100%
+	-webkit-text-size-adjust: none;
+  	overflow-x: hidden;
+  	overflow-y: hidden;
+}
+
+
+@media screen and (max-width: 376px) {
+	
+}
+
+
+@media screen and (max-width: 460px) {
+	
+}
+
+.button{
+	width: 80px;
+	background: #fff;
+	opacity: .8;
+}
+
+.inputlabel{
+	text-align: right;
+	width: 73px;
+	height: 20px;
+}
+
+.fillin{
+	margin: 5px;
+}
+
+
+footer{
+	text-align: right;
+	vertical-align: baseline;
+	position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}

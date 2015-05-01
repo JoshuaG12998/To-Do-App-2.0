@@ -3,13 +3,13 @@
 	<html>
 		<head>
 			<!-- links css to home page -->
-			<link rel="stylesheet" type="text/css" href="css/post.css"> 
+			<link rel="stylesheet" type="text/css" href="css/other.css"> 
 			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 			<meta name="viewport" content="width=device-width">
 			<meta name="viewport" content="width=320">
 			<meta charset="UTF-8">
-			<title>Blogs</title>
+			<title>Todo-List2</title>
 		</head>
 
 		<body>
